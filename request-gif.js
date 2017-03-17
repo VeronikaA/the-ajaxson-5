@@ -60,7 +60,7 @@ function fetchAndDisplayGif(event) {
             // 2. hide the feedback message and display the image
             setGifLoadedStatus(true);
             // $("#gif").attr("show", !isCurrentlyLoaded);
-            $("#gif").show().attr('src', image.src);
+            $("#gif").show().attr("src", image_url);   // image.src
             $("#feedback").attr("hidden", isCurrentlyLoaded);
 }
         },
