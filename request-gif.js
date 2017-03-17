@@ -59,6 +59,8 @@ function fetchAndDisplayGif(event) {
             $("#gif").attr("src", response.data.image_url);
             // 2. hide the feedback message and display the image
             setGifLoadedStatus(true);
+            // $("#gif").attr("show", !isCurrentlyLoaded);
+            $("#gif").show().attr('src', image.src);
             $("#feedback").attr("hidden", isCurrentlyLoaded);
 }
         },
