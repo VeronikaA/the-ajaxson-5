@@ -80,8 +80,13 @@ function fetchAndDisplayGif(event) {
     $("#feedback").text("Loading...");
     setGifLoadedStatus(false);
 }
+ else {
+    $("#feedback").text("No Gifs for you!");
+    setGifLoadedStatus(false);
+};
+}
 
-
+  
 /**
  * toggles the visibility of UI elements based on whether a GIF is currently loaded.
  * if the GIF is loaded: displays the image and hides the feedback label
