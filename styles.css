@@ -6,7 +6,7 @@ main {
 header {
     text-align: center;
     padding: 1em;
-    background: #eee;
+    background:pink;
 }
 input[name='captcha'] {
     text-align: right;
