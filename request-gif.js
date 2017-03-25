@@ -58,12 +58,11 @@ function fetchAndDisplayGif(event) {
             // 1. set the source attribute of our image to the image_url of the GIF
             $("#gif").attr("src", response.data.image_url);
             // 2. hide the feedback message and display the image
-            setGifLoadedStatus(true);
-            // $("#gif").attr("show", !isCurrentlyLoaded);
-            $("#gif").show().attr("src", image_url);   // image.src
-            $("#feedback").attr("hidden", isCurrentlyLoaded);
+            //function setGifLoadedStatus(isCurrentlyLoaded) {
+                // $("#gif").attr("hidden", !isCurrentlyLoaded);
+                //$("#feedback").attr("hidden", isCurrentlyLoaded);
 }
-        },
+  
         error: function(err) {
             // if something went wrong, the code in here will execute instead of the success function
             console.log("we got an error:");
