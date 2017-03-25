@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    $("#form-gif-request").submit(function(evt) {
+    $("#form-gif-request").submit(function(event) {
 
         // This line prevents the form submission from doing what it normally does:
         // send a request (which would cause our page to refresh).
