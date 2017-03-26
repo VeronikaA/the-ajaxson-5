@@ -68,3 +68,7 @@ function setGifLoadedStatus(isCurrentlyLoaded) {
     $("#gif").attr("hidden", !isCurrentlyLoaded);
     $("#feedback").attr("hidden", isCurrentlyLoaded);
 }
+function toggleCaptchaError(isError) {
+    $("#captcha-container").toggleClass("has-error", isError);
+    $("#error-msg").attr("hidden", !isError);
+}
