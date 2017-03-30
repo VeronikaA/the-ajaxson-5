@@ -1,12 +1,16 @@
 main {
+    
     padding: 5px;
     max-width: 600px;
     margin: auto;
 }
 header {
+    border: 1px solid black;
     text-align: center;
     padding: 5px;
-    background:pink;
+    font-weight:bold;
+    margin-top:10px;
+    background:#FFB6E6;
 }
 input[name='captcha'] {
     text-align: right;
@@ -17,3 +21,4 @@ input[name='captcha'] {
 #gif {
     margin: auto;
 }
+
