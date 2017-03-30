@@ -53,7 +53,7 @@ function fetchAndDisplayGif(event) {
     $("#feedback").text("Loading....");
     setGifLoadedStatus(false);
 } else {
-    $("#feedback").text("No Gifs for you!");
+    $("#feedback").text("No Gifs for you!");  // if user enters the wrong answer to how many Jacksons,error message will be sent
     setGifLoadedStatus(false);
 };
 }
